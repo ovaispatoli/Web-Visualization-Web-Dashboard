@@ -10,6 +10,10 @@
     color: #D4AF37
 }
 
+.title_color {
+    color: #DAA520
+}
+
 /* .panel-body {
     background-color: #34495E
 } */
@@ -17,3 +21,12 @@
 .to_center {
     text-align: center;
 }
+
+.div_spacing {
+    margin-bottom: 20px;
+}
+
+/* .img_config {
+    height: 200%;
+    width: 200%
+} */
