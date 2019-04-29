@@ -23,34 +23,37 @@
 <body>
     
     <!-- Navigation Bar -->
-    <div class = "container">
-        <nav class = "navbar navbar-expand-lg navbar-light bg-light">
-            <a class = "navbar-brand" href = "index.html">Lattitude</a>
-            <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown"
-                aria-controls = "false" aria-label = "Toggle navigation">
-                <span class = "navbar-toggler-icon"></span>
-            </button>
-            <div class = "collapse navbar-collapse" id = "navbarNavDropdown">
-                <ul class = "navbar-nav ml-auto">
-                    <li class = "nav-item drop down">
-                        <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup = "true">
-                            Plots
-                        </a>
-                        <div class = "dropdown-menu dropdown-menu-right" aria-labelledby = "navbarDropdownMenuLink">
-                            <a class = "dropdown-item" href = "maxtemp.html">Lat vs Max Temp</a>
-                            <a class = "dropdown-item" href = "windspeed.html">Lat vs Wind</a>
-                            <a class = "dropdown-item" href = "cloudy.html">Lat vs Cloudiness</a>
-                        </div>
-                    </li>
-                    <li class = "nav-item active">
-                        <a class = "nav-link" href = "comparisons.html">Comparisons <span class = "sr-only">(current)</span></a>
-                    </li>
-                    <li class = "nav-item active">
-                        <a class = "nav-link" href = "data.html">Data <span class = "sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <!-- <div class = "container"> -->
+            <nav class = "navbar navbar-expand-md navbar-light bg-light">
+                    <a class = "navbar-brand" href = "index.html"><h1 class = "brand_color">Lattitude</h1></a>
+                    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown"
+                        aria-controls = "false" aria-label = "Toggle navigation">
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "collapse navbar-collapse" id = "navbarNavDropdown">
+                        <ul class = "navbar-nav ml-auto">
+                            <li class = "nav-item drop down">
+                                <div class = "dropdown show">
+                                    <a class = "btn dropdown-toggle" href = "#" id = "DropdownMenuLink" data-toggle = "dropdown" aria-haspopup = "true">
+                                        <span class = "brand_color">Plots</span>
+                                    </a>
+                                    <div class = "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink">
+                                        <a class = "dropdown-item" href = "maxtemp.html"><span class = "brand_color">Lat vs Temp</span></a>
+                                        <a class = "dropdown-item" href = "windspeed.html"><span class = "brand_color">Lat vs Wind</span></a>
+                                        <a class = "dropdown-item" href = "cloudy.html"><span class = "brand_color">Lat vs Cloudiness</span></a>
+                                        <a class = "dropdown-item" href = "humidity.html"><span class = "brand_color">Lat vs Humidity</span></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "nav-item active">
+                                <a class = "nav-link" href = "comparisons.html"><span class = brand_color>Comparisons</span> <span class = "sr-only">(current)</span></a>
+                            </li>
+                            <li class = "nav-item active">
+                                <a class = "nav-link" href = "Weather_data.html"><span class = brand_color>Data</span> <span class = "sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    <!--</div> -->
 </body>
 </html>
