@@ -11,6 +11,9 @@
     <!-- Optional Theme -->
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" crossorigin="anonymous">
     
+    <!-- Personal Style Sheet -->
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+    
     <!-- Java Script and JQuery (needed for Bootstrap to work properly) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -23,9 +26,9 @@
 <body>
     
     <!-- Navigation Bar -->
-    <div class = "container">
-        <nav class = "navbar navbar-expand-lg navbar-light bg-light">
-            <a class = "navbar-brand" href = "index.html">Lattitude</a>
+    <!-- <div class = "container"> -->
+        <nav class = "navbar navbar-expand-md navbar-light bg-light">
+            <a class = "navbar-brand" href = "index.html"><h1>Lattitude</h1></a>
             <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown"
                 aria-controls = "false" aria-label = "Toggle navigation">
                 <span class = "navbar-toggler-icon"></span>
@@ -51,6 +54,76 @@
                 </ul>
             </div>
         </nav>
+    <!-- </div> -->
+
+    <!-- Landing Page Content -->
+    <div class = "container">
+        <div class = "row">
+            <!-- Left Box -->
+            <div class = "col-md-8">
+                <div class = "panel panel-default">
+                    <div class = "panel-body">
+
+                        <!-- Title of Left Box -->
+                        <h2 class = "to_center">Summary: Latitude vs X</h2>
+                        <hr>
+
+                        <!-- Image and Text for left box -->
+                        <p class = 'text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima nobis laboriosam assumenda qui, possimus, 
+                        beatae sed harum recusandae eaque dolorem dolor fugiat ut voluptatibus voluptatum magnam officiis laborum consequuntur!</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Box -->
+            <div class = "col-md-4">
+                <div class = "panel panel-default">
+                    <div class = "panel-body">
+                        
+                        <!-- Right Box Title -->
+                        <h2 class = "to_center">Visualizations</h2>
+                        <hr>
+
+                        <!-- Images for Right Box -->
+                        <div class = "row">
+                            
+                            <!-- Max Temperature Plot -->
+                            <div class = "col-lg-6 col-md-6 col-xs-6">
+                                <a href = "maxtemp.html">
+                                    <img class = "img img-responsive" src = "#" style = "width:100%" alt = "Max Temperature Plot">
+                                </a>
+                             </div>
+                             <!-- Humidity Plot -->
+                             <div class = "col-lg-6 col-md-6 col-xs-6">
+                                <a href = "maxtemp.html">
+                                    <img class = "img img-responsive" src = "#" style = "width:100%" alt = "Max Temperature Plot">
+                                </a>
+                            </div>
+                            <!-- Cloudiness Plot -->
+                            <div class = "col-lg-6 col-md-6 col-xs-6">
+                                <a href = "maxtempt.html">
+                                    <img class = "img img-responsive" src = "#" style = "width:100%" alt = "Max Temperature Plot">
+                                </a>
+                            </div>
+                            <!-- Wind speed plot -->
+                            <div class = "col-lg-6 col-md-6 col-xs-6">
+                                <a href = "maxtempt.html">
+                                    <img class = "img img-responsive" src = "#" style = "width:100%" alt = "Max Temperature Plot">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
+
+
+
 </body>
 </html>
