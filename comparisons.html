@@ -11,6 +11,9 @@
     <!-- Optional Theme -->
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" crossorigin="anonymous">
     
+    <!-- Personal Style Sheet -->
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+    
     <!-- Java Script and JQuery (needed for Bootstrap to work properly) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -55,5 +58,44 @@
                     </div>
                 </nav>
     <!--</div> -->
+
+
+   <!-- Page Content -->
+    <div class = "container">
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="panel panel-default">
+                       <div class="panel-body">
+    
+                               <h2>Latitude vs. X</h2>
+                               <hr>
+                               <p class = "div_spacing">Click a plot for a more in-depth analysis.</p>
+    
+                               <div class="row">
+                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 div_spacing">
+                                       <h3 class = "text-center">vs Max Temperture</h3>
+                                       <a href="maxtemp.html"><img class = "img img-responsive" src="Images\LatvsTemp.png" style="width:80%" alt=""></a></div>
+                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                       <h3 class = "text-center">vs Humidity</h3>
+                                       <a href="humidity.html"><img class = "img img-responsive" src="assets\Latitude_vs_Humidity.png" style="width:80%" alt=""></a></div>
+                               </div>
+    
+                               <div class="row">
+                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                       <h3 class = "text-center">vs Cloudiness</h3>
+                                       <a href="cloudiness.html"><img class = "img img-responsive" src="assets\Latitude_vs_Cloudiness.png" style="width:80%" alt=""></a></div>
+                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                       <h3 class = "text-center">vs Wind Speed</h3>
+                                       <a href="wind_speed.html"><img class = "img img-responsive" src="assets\Latitude_vs_WindSpeed.png" style="width:80%" alt=""></a></div>
+                               </div>
+    
+                       </div>
+    
+                               </div>
+                           </div>
+                           <div class="col-md-1"></div>
+               </div>
+           </div>
+
 </body>
 </html>
