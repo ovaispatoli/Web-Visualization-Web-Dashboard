@@ -26,6 +26,13 @@
     margin-bottom: 20px;
 }
 
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: gray;
+    }
+}
+
 /* .img_config {
     height: 200%;
     width: 200%
